@@ -1,0 +1,676 @@
+
+body {
+
+    margin: 15px;
+    align-items: center;
+    font-size: 25px;
+    padding: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+
+
+
+.container  {
+    position: absolute; /* Define o contêiner como referência para o posicionamento absoluto */
+    width: 60%;
+    display: flex;
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .btn-whatsapp {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .btn-whatsapp {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+.my-button {
+    position: absolute;
+    top: 6ric;
+    left: 11ric;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    opacity: 88%;
+    color: rgb(93, 211, 103);
+    transition: background-color 0.6s; /* Tempo de transição */
+    
+
+}
+
+.w3 {
+    opacity: 95%;
+    
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-image: url("https://cdn.leonardo.ai/users/a580d56b-9e3c-4146-a56c-7086bc9169e8/generations/3471b732-f119-4118-8032-85f46c5b563a/Default_imagem_de_jardim_com_plantas_tpicas_brasileiras_jardim_1.jpg");
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mySlides {
+
+    height: 600px;
+}
+
+.img {
+    width: 90%;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    
+}
+
+.infomacoes, .manutencao, .Servico-irrigacao, .Limpeza, .Consultoria {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    display: grid;
+    color: #0e0d0d;
+    padding: 25px;
+
+
+}
+
+.p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 2000;
+    font-style: normal;
+    font-size: .8rem;
+    display: flex;
+    justify-content: left;
+    color: aliceblue; 
+    margin: 10px;
+    align-content: center;
+}
+
+.h2 {
+    align-content:center;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: #fff;
+    
+    
+    
+    
+}
+.h3, .h4 {
+    
+    font-size: 35px;
+    display: flex;
+    display: contents;
+    padding: 5px;
+    color: #0c0c0c;
+    
+}
+.h5 {
+    font-size: 1.5rem;
+    padding: 5px;
+    font-style: italic;
+
+
+}
+
+.video {
+    width: 55%;
+    height: 500px;
+    
+}
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+    .rodape {
+        background-color: #0c1410;
+    min-height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 0 0 2px;
+    font-size: 6px;
+    color: aliceblue;
+    padding: 10px;
+    font-family: inherit;
+    width: 100%;
+        /* Estilos específicos para telas menores */
+    }
+}
+
+.contato {
+    font-size: 11px;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/*.body-conteiner {
+    
+        font-size: 1.5rem;
+        margin-inline: auto;
+        width: min(60ch, 100%);
+    }
+
+p {
+        animation: appear 1ms ease-in-out;
+        animation-timeline: view();
+        animation-range: cover 0% cover 10%;
+    }
+    
+    @keyframes appear {
+        from {
+            opacity: 0;
+            translate: -100vw 0;
+        }
+        
+        to {
+            opacity: 1;
+            translate: 0 0;
+        }
+    }
+*/
+.grid-container {
+        display: grid;
+        height: 200px;
+        align-content: left;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        background-color: #09694970;
+        padding: -10px;
+        border-radius: 25px;
+        
+    }
+
+.grid-container > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Cria um grid com três colunas */
+        
+}
+
+.text {
+    font-size: 1.7rem;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 20px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://cdn.leonardo.ai/users/a580d56b-9e3c-4146-a56c-7086bc9169e8/generations/ad76a570-a3c5-488d-952f-4ee1e8f2a0be/Default_Jardim_suspenso_1.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+    @media only screen and (max-device-width: 1366px) {
+    .parallax {
+    background-attachment: scroll;
+    }
+}
+
+.multi {
+    transform: translateY(-68%);
+    width: 55%;
+    display: flex;
+    margin: 15px;
+
+}
+
+.grid {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transform: translateX(20%);
+    transform: translateZ(-20%);
+
+    
+    
+}
+.Sobre {
+    background-color: #042406bb;
+    color: #f8faf8;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0rem;
+    
+    
+}
+
+.pm {
+    font-family: "Roboto", sans-serif;
+    font-weight: 2000;
+    font-style: normal;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    color: aliceblue; 
+    margin: 10px;
+    align-content: center;
+    
+
+}
+.geral-div {
+    align-items: center;
+    transform: translateY(-100%);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+
+
